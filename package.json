@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/js-jslog/flappybird-rxjs#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
