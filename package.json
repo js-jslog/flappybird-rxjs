@@ -4,6 +4,8 @@
   "description": "Copy of flappybird game at https://www.learnrxjs.io/learn-rxjs/recipes/flappy-bird-game",
   "private": true,
   "scripts": {
+    "build": "webpack",
+    "start": "http-server ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +26,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "http-server": "^0.12.1",
     "lodash": "^4.17.15"
   }
 }
