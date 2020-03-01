@@ -2,7 +2,7 @@
   "name": "flappybird-rxjs",
   "version": "1.0.0",
   "description": "Copy of flappybird game at https://www.learnrxjs.io/learn-rxjs/recipes/flappy-bird-game",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/js-jslog/flappybird-rxjs/issues"
   },
-  "homepage": "https://github.com/js-jslog/flappybird-rxjs#readme"
+  "homepage": "https://github.com/js-jslog/flappybird-rxjs#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
